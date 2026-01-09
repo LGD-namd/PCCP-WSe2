@@ -1,0 +1,11 @@
+               rundir = "/data1/lgd/0-WX2/1-WSe2/run100K"
+              ikpoint = 1
+               brange = [233, 238]
+                  nsw = 5000
+       spin_diabatics = false
+               ndigit = 4
+                potim = 1
+          temperature = 100
+        normalization = false
+      phasecorrection = true
+             nacfname = "NAC.h5"

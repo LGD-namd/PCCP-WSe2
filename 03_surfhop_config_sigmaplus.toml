@@ -1,0 +1,112 @@
+####             NAMD-lmi config for surface-hopping calculation            ####
+#### YOUT NEED TO CHANGE THE PARAMETERS IN THE FOLLOWING TO FIT YOUR SYSTEM ####
+
+          hamil_fname = "HAMIL_sigmaplus.h5"
+             namdtime = 5000
+                 nelm = 10
+                ntraj = 10000
+             shmethod = "FSSH"
+
+               outdir = "excitation_sigmaplus"
+     detailed_balance = "DependsOnEField"
+      smearing_method = "LorentzianSmearing"
+       smearing_sigma = 0.01
+ smearing_npoints_per_eV = 500
+           ltdphonons = false
+           ltdphotons = false
+
+              iniband = "237"
+             inisteps = [
+        202 ,
+        23 ,
+        260 ,
+        310 ,
+        380,
+        780 ,
+        245 ,
+        1233 ,
+        317 ,
+        382,
+        2244 ,
+        233 ,
+        264 ,
+        3127 ,
+        438,
+        422 ,
+        273 ,
+        2236 ,
+        311 ,
+        328,
+        7222 ,
+        147 ,
+        7819 ,
+        963 ,
+        388,
+           224 ,
+        173 ,
+        1260 ,
+        1331 ,
+        138,
+            122 ,
+        223 ,
+        2256 ,
+        321 ,
+        328,
+            232 ,
+        233 ,
+        2386 ,
+        331 ,
+        338,
+           252 ,
+        2553 ,
+        256 ,
+        351 ,
+        358,
+           282 ,
+        243 ,
+        246 ,
+        3417 ,
+        348,
+           292 ,
+        2306 ,
+        260 ,
+        3510 ,
+        380,
+           262 ,
+        353 ,
+        726 ,
+        731 ,
+        738,
+          232 ,
+        423 ,
+        426 ,
+        4371 ,
+        438,
+          272 ,
+        323 ,
+        206 ,
+        3731 ,
+        358,
+          242 ,
+        213 ,
+        216 ,
+        501 ,
+        3182,
+        159 ,
+        293 ,
+        2609 ,
+        319 ,
+        384,
+        111 ,
+        222 ,
+        1265 ,
+        3117 ,
+        1387,
+        1221 ,
+        2203 ,
+        333 ,
+        4441 ,
+        2308
+
+
+]

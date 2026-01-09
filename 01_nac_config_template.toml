@@ -1,0 +1,14 @@
+####         NAMD-lmi config for Non-Adiabatic Coupling (NAC) calculation       ####
+####    YOU NEED TO CHANGE THE PARAMETERS IN THE FOLLOWING TO FIT YOU SYSTEM    ####
+
+               rundir = "../run"
+              ikpoint = 1
+               brange = [0, 0]
+                  nsw = 2000
+       spin_diabatics = false
+               ndigit = 4
+                potim = 1
+          temperature = 0
+        normalization = false
+      phasecorrection = true
+             nacfname = "NAC.h5"
