@@ -1,0 +1,31 @@
+Global Parameters
+  LREAL   = auto
+  PREC    = NORMAL
+  ISPIN   = 1
+  ISTART  = 0
+#  ICHARG  = 0
+AMIX = 0.2
+Electronic relaxation
+NPAR    = 8
+  ISMEAR  = 0
+  SIGMA   = 0.1
+  ALGO    = F
+  NELMIN  = 6
+  NELM    = 120
+  EDIFF   = 1E-6
+EDIFFG = -1E-02
+Molecular Dynamics
+  ISYM    = 0     # turn off symmetry for MD
+  IBRION  = 0     # turn on MD
+  NSW     = 1500   # No. of ionic steps
+  POTIM   = 1     # time step 1.0 fs
+  SMASS   = -1    # velocity rescaling
+  NBLOCK  = 4     # velocity rescaled
+                  # every NBLOCK step
+  TEBEG   = 300   # start temperature
+  TEEND   = 300   # end temperature
+
+Writing Flag
+  NWRITE  = 1     # make OUTCAR small
+  LWAVE   = .FALSE.
+  LCHARG  = .FALSE. 
